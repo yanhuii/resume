@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0，maximum-scalae=1.0,user-scalable=no">
+<title>个人简历--严辉</title>
+
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<style>
+
+.graph{
+width: 30%;
+background-color:#F0EFEF;
+border:1px solid #cccccc;
+border-radius: 5px;
+padding:2px;
+font-size:1em;
+margin-left: 40%;
+position: relative;
+top: -60px;
+}
+.graph .orange, .green, .blue, .red, .black{
+text-align:center;
+color:#ffffff;
+height:12px;
+line-height:12px;
+font-family:Arial;
+display:block;
+}
+.graph .orange{background-color:#E44D27;}
+.graph .green{background-color:#0F4B8A;}
+.graph .blue{background-color:#3399CC;}
+.graph .red{background-color:#82C000;}
+.graph .black{background-color:#FFB671;}
+
+       
+</style>
+</head>
+<body>
+<div id="container">
+	<div class="section active" id="section0">
+		<div class="intro">
+      <p><img src="images/person.png"></p>
+		  <h1 class="title">严辉</h1>
+		  <p class="student">福建工程学院大三学生</p>
+		  <p>一腔热血的激情、一夜失眠的创意、一个像素的执着</p>
+		</div>
+
+	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+		  <h1 class="title">自我介绍</h1>
+		  <p>Self introduction</p>
+      <br>
+      <div id="space">
+      <p><img src="images/information_03.png">&nbsp;&nbsp;1995.10.04</p>
+      <p><img src="images/information_05.png">&nbsp;&nbsp;福建工程学院·视觉传达设计</p>
+      <p><img src="images/information_07.png">&nbsp;&nbsp;福建·福州</p>
+      <p><img src="images/information_13.png">&nbsp;&nbsp;1154191140@qq.com</p>
+      <p><img src="images/information_16.png">&nbsp;&nbsp;18649838149</p>
+      <p><img src="images/information_19.png">&nbsp;&nbsp;<a href="https://github.com/yanhuii" target="_blank">点击进入</a></p>
+      </div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+		  <h1 class="title">技能</h1>
+		  <h2>Skill</h2>
+      <br>
+      <p>Photoshop<div class="graph"><span class="orange" style="width:80%;">Photoshop:&nbsp;&nbsp;80%</span></div></p>
+      <p>Illustrator<div class="graph"><span class="green" style="width:80%;">Illustrator:&nbsp;&nbsp;80%</span></div></p>
+      <p>HTML5<div class="graph"><span class="blue" style="width:80%;">HTML5:&nbsp;&nbsp;80%</span></div></p>
+      <p>CSS3<div class="graph"><span class="red" style="width:75%;">CSS3:&nbsp;&nbsp;75%</span></div></p>
+      <p>JavaScript<div class="graph"><span class="black" style="width:50%;">JavaScript:&nbsp;&nbsp;50%</span></div></p>
+    
+
+		 
+		</div>
+	</div>
+  <div class="section" id="section3">
+    <div class="intro">
+      <h1 class="title">工作经历</h1>
+      <p style="color: #fff;">Work experience</p>
+     <br>
+     <div id="space1">
+      <p>2011.6~2011.9 &nbsp;&nbsp;闽侯南通某印刷厂普工</p>
+      <p>2012.6~2012.9 &nbsp;&nbsp;某品牌电饭煲促销员</p>
+      <p>2013.6~2013.9 &nbsp;&nbsp;久胜兴电子有限公司天丰电子城分区店员</p>
+      <p>2014.2~2014.9 &nbsp;&nbsp;康池CEO会所现场主管</p>
+      <p>2016.6~2016.9 &nbsp;&nbsp;好柒醉得意餐饮店长助理</p>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="section4">
+    <div class="intro">
+      <h1 class="title">作品集</h1>
+      <p>Sample reels</p>
+      <br>
+      <p>平面设计作品&nbsp;&nbsp;&nbsp;&nbsp;<a href="works.html" target="_blank">点击查看</a></p>
+      <p>网站网页作品&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://yanhuii.github.io/songshv.tv/" target="_blank">点击查看</a></p>
+      <h2 style="font-weight: normal;">吾不聪慧 敢不知诚</h2>
+      <p>1154191140@qq.com</p>
+    </div>
+  </div>
+ 
+</div>
+
+<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/switchPage.js"></script> 
+<script type="text/javascript">
+	$(function(){
+	  $("#container").switchPage({
+		'loop' : true,
+		'keyboard' : true,
+		'direction' : 'horizontal',
+	  });
+	});
+</script>
+
+</body>
+</html>
